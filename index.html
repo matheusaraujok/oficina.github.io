@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina do Raimundo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+           <img src="logo.png" alt="Logo da Oficina do Raimundo" class="logo">
+
+            <h1>Oficina do Raimundo</h1>
+            <p>Seu carro em boas mãos!</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#quote">Orçamento</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>Mecânica em geral</h3>
+                    <p>Manutenção e reparos em todas as marcas e modelos.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-oil-can"></i>
+                    <h3>Troca de óleo</h3>
+                    <p>Óleo de qualidade para prolongar a vida útil do seu motor.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-car-crash"></i>
+                    <h3>Suspensão e Freios</h3>
+                    <p>Manutenção completa para sua segurança.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-clipboard-check"></i>
+                    <h3>Revisões</h3>
+                    <p>Verificação completa para viagens tranquilas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="quote-form">
+        <div class="container">
+            <h2>Solicite um Orçamento</h2>
+            <form id="quoteForm">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Serviço Desejado:</label>
+                    <textarea id="service" name="service" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Orçamento</button>
+                <a href="https://wa.me/5561985302170" target="_blank" class="btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Solicitar pelo WhatsApp
+                </a>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-info">
+        <div class="container">
+            <h2>Contato</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Endereço: SHA CHA 19 Conjunto 5 lote 7, Arniqueiras, Brasília-DF</p>
+            <p><i class="fas fa-phone"></i> Telefone fixo: (61) 3356-7275</p>
+            <p><i class="fab fa-whatsapp"></i> Celular/WhatsApp: <a href="https://wa.me/5561985302170" target="_blank">(61) 9 8530-2170</a></p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:raimundomecanicoarniqueiras@gmail.com">raimundomecanicoarniqueiras@gmail.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oficina do Raimundo - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
