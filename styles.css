@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth; /* Adiciona rolagem suave */
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
